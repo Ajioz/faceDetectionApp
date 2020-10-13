@@ -1,0 +1,22 @@
+{
+  "name": "face-api",
+  "version": "1.0.0",
+  "description": "API endpoints for the race recognition app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Ajiroghene Sunny",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "nodemon": "^2.0.4",
+    "pg": "^8.4.0",
+    "pg-promise": "^10.7.0"
+  }
+}
