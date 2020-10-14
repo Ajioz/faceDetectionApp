@@ -7,10 +7,6 @@
     "start": "nodemon server.js"
   },
 
-  "engines": {
-    "node": "12.x"
-  },
-
   "author": "Ajiroghene Sunny",
   "license": "ISC",
   "dependencies": {
