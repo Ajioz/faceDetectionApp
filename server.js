@@ -19,7 +19,7 @@ const db = knex({
     }   
 });
 
-app.use(express.json());
+app.use(bodyParser.json());
 app.use(cors());
 
 //Get All users
