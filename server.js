@@ -43,12 +43,9 @@ app.post('/api/user/rankurl', (req, res) => { rank.handleApiCall(req, res) });
 // const port = process.env.PORT || 4000;
 // app.listen(port, () => console.log(`listening on port ${port}...`));
 
-app.listen(process.env.PORT || 3000, () => {
-    console.log(`Express server listening on port ${process.env.PORT}`);
-  });
-
-
-
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
 
 /*
 --> Planning our server, a practise you should get comfortable with <--
